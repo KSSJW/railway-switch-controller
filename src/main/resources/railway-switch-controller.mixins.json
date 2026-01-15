@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.kssjw.railwayswitchcontroller.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AbstractMinecartEntityMixin",
+		"EntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

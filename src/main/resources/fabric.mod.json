@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "railway-switch-controller",
+	"version": "0.1",
+	"name": "Railway Switch Controller",
+	"description": "You can see and control the railway switches ahead!",
+	"authors": [
+		"KSSJW"
+	],
+	"contact": {
+		"homepage": "https://github.com/KSSJW/railway-switch-controller",
+		"issues": "https://github.com/KSSJW/railway-switch-controller/issues",
+		"sources": "https://github.com/KSSJW/railway-switch-controller"
+	},
+	"license": "CPL-3.0",
+	"icon": "assets/railway-switch-controller/logo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kssjw.railwayswitchcontroller.RailwaySwitchController"
+		],
+		"client": [
+			"com.kssjw.railwayswitchcontroller.client.RailwaySwitchControllerClient"
+		]
+	},
+	"mixins": [
+		"railway-switch-controller.mixins.json",
+		{
+			"config": "railway-switch-controller.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": ">=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
