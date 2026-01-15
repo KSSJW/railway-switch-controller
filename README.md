@@ -15,7 +15,7 @@ You can see and control the railway switches ahead!
   - Fabric API (Required)
 
 ## Gallery
-![Big](https://https://raw.githubusercontent.com/KSSJW/railway-switch-controller/refs/heads/dev/images/Big.png)
+![Big](https://raw.githubusercontent.com/KSSJW/railway-switch-controller/refs/heads/dev/images/Big.png)
 
 ## Features
 
