@@ -2,7 +2,6 @@ package com.kssjw.railwayswitchcontroller.manager;
 
 import com.kssjw.railwayswitchcontroller.util.CartListUtil;
 import com.kssjw.railwayswitchcontroller.util.ChangeUtil;
-import com.kssjw.railwayswitchcontroller.util.LogUtil;
 import com.kssjw.railwayswitchcontroller.util.MessageUtil;
 import com.kssjw.railwayswitchcontroller.util.ScanUtil;
 
@@ -34,9 +33,6 @@ public class SwitchManager {
         for (Entity entity : minecart.getPassengerList()) {
             if (entity instanceof PlayerEntity player) MessageUtil.sendDistance(player);
         }
-
-        LogUtil.print(targetPos);
-
     }
 
     public static void change(PlayerEntity player) {

@@ -23,7 +23,6 @@ public class ScanUtil {
         BlockPos pos = minecart.getBlockPos();
         String dir = DirectionUtil.getDetailedDirection(minecart);
 
-        // TODO 激活铁轨待测试 轨道形状补全（上下坡）
         for (int i = 0; i < 50; i++) {
             if (JudgeUtil.isSwitch(world, pos)) return pos;
 
