@@ -22,6 +22,7 @@ Check out the latest development progress here. [Development Progress](https://w
 
 ## Features
 - When your minecart approaches a railway switch, a prompt will appear on the screen. You can press a key on your keyboard (the default is **G**, which you can change in your Minecraft settings) to control the direction of the switch.
+
 ![Distance](https://raw.githubusercontent.com/KSSJW/railway-switch-controller/refs/heads/dev/images/Distance.png)
 
 ## Progress
