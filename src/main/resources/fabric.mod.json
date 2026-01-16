@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "railway-switch-controller",
-	"version": "0.1",
+	"version": "0.1+1.21.11",
 	"name": "Railway Switch Controller",
 	"description": "You can see and control the railway switches ahead!",
 	"authors": [
