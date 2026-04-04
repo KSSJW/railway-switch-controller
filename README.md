@@ -15,7 +15,7 @@ You can see and control the railway switches ahead!
   - Fabric API (Required)
 
 ## Progress
-Check out the latest development progress here. [Development Progress](https://windysky.gitbook.io/main/minecraft/railway-switch-controller/version)
+Check out the latest development progress here. [Development Progress](https://www.windysky.top/docs/minecraft-java-edition/railway-switch-controller/version)
 
 ## Gallery
 ![Big](https://raw.githubusercontent.com/KSSJW/railway-switch-controller/refs/heads/dev/images/Big.png)
